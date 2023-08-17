@@ -1,0 +1,19 @@
+* {
+    border: 1px solid red;
+  }
+
+.feed {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin: 100px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    width: 600px;
+    height: 100px;
+}
