@@ -1,19 +1,25 @@
-* {
-    border: 1px solid red;
-  }
-
-.feed {
-    display: flex;
-    width: 100px;
-    height: 100px;
-    margin: 100px;
+body {
+    background: rgb(202, 202, 202);
+    margin: 0;
 }
-
+header {
+    background: white;
+    padding: 10px;
+}
 h1 {
     text-align: center;
+    margin-top: auto;
 }
-
-p {
+div.post {
+    background: white;
+}
+div.post img{
+    width: 100%;
+}
+div.post h2, div.post p {
+    padding: 5px;
+}
+div.container {
     width: 600px;
-    height: 100px;
+    margin: auto;
 }
