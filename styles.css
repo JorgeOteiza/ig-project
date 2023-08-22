@@ -25,17 +25,15 @@ div.post {
 div.post img {
     width: 100%;
 }
-div.post .post-header div.primer-hijo h2 {
+div.post .post-header div:first-child{
     display: inline-block;
     width: 80%;
     background: green;
 }
-div.post .post-header div.último-hijo span {
+div.post .post-header div:last-child{ 
     display: inline-block;
     text-align: right;
-    box-sizing: border-box;
     width: 20%;
-    padding: 10px;
     background: yellow;
 }
 div.post h2, div.post p { 
