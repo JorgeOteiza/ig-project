@@ -25,20 +25,28 @@ div.post {
 div.post img {
     width: 100%;
 }
-div.post .post-header div:first-child {
+div .span {
+    text-align: right;
+}
+div.post .post-header .mitad-izquierda {
     display:inline-block;
     width: 80%;
 }
-div.post .post-header div:last-child {
+div.post .post-header .mitad-derecha {
     display:inline-block;
     width: 20%;
-}
-div.post h2, div.post p {
     padding: 10px;
+}
+div.post h2 { 
+    padding: 10px;
+    margin: 0;
+}
+div.post p {
+    display: inline-block;
+    width: 100%;
     margin: 0;
 }
 div.container {
     width: 600px;
     margin: auto;
 }
-
