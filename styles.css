@@ -25,28 +25,25 @@ div.post {
 div.post img {
     width: 100%;
 }
-div .span {
-    text-align: right;
-}
-div.post .post-header .mitad-izquierda {
-    display:inline-block;
+div.post .post-header div.primer-hijo h2 {
+    display: inline-block;
     width: 80%;
+    background: green;
 }
-div.post .post-header .mitad-derecha {
-    display:inline-block;
+div.post .post-header div.último-hijo span {
+    display: inline-block;
+    text-align: right;
+    box-sizing: border-box;
     width: 20%;
     padding: 10px;
+    background: yellow;
 }
-div.post h2 { 
+div.post h2, div.post p { 
     padding: 10px;
-    margin: 0;
-}
-div.post p {
-    display: inline-block;
-    width: 100%;
     margin: 0;
 }
 div.container {
     width: 600px;
     margin: auto;
 }
+
