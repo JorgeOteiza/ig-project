@@ -1,9 +1,6 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-* {
-    border: 1px solid red; /* Borde rojo sólido de 2 píxeles de ancho */
-  }
 body {
     background: rgb(200, 200, 200);
     margin: 0;
@@ -19,8 +16,10 @@ header h1 {
     margin: 0;
 }
 div.post {
+    position: relative;
     background: white;
-    margin-top: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 div.post img {
     width: 100%;
@@ -28,13 +27,16 @@ div.post img {
 div.post .post-header div:first-child{
     display: inline-block;
     width: 80%;
-    background: green;
 }
-div.post .post-header div:last-child{ 
+div.post .post-header span:last-child{ 
+    position:absolute;
     display: inline-block;
-    text-align: right;
+    top: 10px;
+    right: 9px;
     width: 20%;
-    background: yellow;
+    padding: 3px;
+    text-align: right;
+    color: gray;
 }
 div.post h2, div.post p { 
     padding: 10px;
